@@ -1,0 +1,180 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow:auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+.subContenedor{
+     background-color: rgba(255,255,255,1.00);
+     border-radius: 16px;
+     
+     width: 600px;
+     min-height: 400px;
+     height: 70%;
+     padding: 0px 14px;
+
+  
+    
+    
+   
+}
+.encabezado{
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Cclose{
+    flex-grow: 1;
+}
+ .close{
+    color: rgb(47, 50, 54);
+    transform: scale(1.4);
+    padding: 6px 8px;
+    
+}
+.close:hover{
+    transition: background-color .3s ease-in-out;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: rgba(106, 104, 104, 0.155); 
+    
+}
+.vacio{
+    flex-grow: 1;
+}
+
+
+.icoTwitter{
+    transform: scale(1.9);
+    color: rgb(29, 155, 240);
+    
+    
+    
+}
+
+.main{
+    max-width: 300px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 48px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+    height: 524px;
+}
+
+.Ctitulo{
+    height: 114px;
+    display: flex;
+    
+    align-items: center;
+}
+
+
+.cCuenta, .cApple , .cSeparador, .c1separadores{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+.subCuenta{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 200px;
+    border: 1px solid lightgray;
+    align-items: center;
+    padding: 8px 10px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.cAvatar{
+    padding: 4px 7px;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+    color: #fff;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.cNombre{
+  flex-grow: 1;
+}
+
+.Nombre{
+    font-size: 11.2px;
+}
+
+.cCorreo{
+    display: flex;
+    gap: 10px;
+    color: gray;
+    align-items: center;
+   
+}
+.correo{
+    font-size: 11.5px;
+}
+.iconDown{
+   font-size: 14.5px;
+}
+
+
+.apple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 200px;
+    border: 1px solid lightgray;
+    padding: 11px 5px;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.iconApple{
+    font-size: 20px;
+}
+
+.textApple{
+    font-size: medium;
+}
+
+.c1separadores{
+    height: 30px;
+}
+
+.cSeparador{
+    display: flex;
+    padding: 0px 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    flex-grow: 1;
+}
+.separadores{
+    flex-grow: 1;
+    height: .1px;
+    border: 1px solid lightgray;
+}
+
+.separadorRadius{
+    padding: 3px 2.5px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
