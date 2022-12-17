@@ -24,12 +24,12 @@
                 <div class="vacio"></div>
                 
             </div>
-            <main class="main">
+            <main class="main" id="modalMian" >
                 <div class="Ctitulo">
-                    <h1 class="titulo">Incia sesión en Twitter</h1>
+                    <h1 class="titulo">Notas del Curso DvlpMent</h1>
                 </div>
-                <div class="cCuenta">
-                    <div class="subCuenta">
+                <div class=""> <!--cCuenta_Classe-->
+                    <!-- <div class="subCuenta">
                         <div class="cAvatar">
                             <h5 class="avatar">E</h5>
                         </div>
@@ -45,16 +45,16 @@
                             <i class="fa-brands fa-google icoGoogle"></i>
                         </div>
                     
-                    </div>
+                    </div> -->
                 </div>
-                <div class="cApple">
+                <!-- <div class="cApple">
                     <div class="apple">
                         <i class="fa-brands fa-apple iconApple"></i>
                         <h4 class="textApple">
                             Continuar con Apple
                         </h4>
                     </div>
-                </div>
+                </div> -->
                 <div class="c1separadores">
                     <div class="cSeparador">
                         <div class="separador1 separadores"></div>
@@ -62,27 +62,40 @@
                         <div class="separador2 separadores"></div>
                     </div>
                 </div>  
-                <form action="CorreoElectronico" class="Cform">
-                    <input type="email" placeholder="Telefono, correo electrónico o nombre de usuario" class="correoElectronico">
+                <form  class="Cform" preventDefault> 
+                    <input type="text" placeholder="Cedula de identidad" class="CI" id="CI" >
                 </form>  
                 <div class="Cboton">
-                  <input type="submit" value="Siguiente" class="boton"> 
+                  <input type="submit" value="Siguiente" class="boton" id="ValidarCI" > 
                 </div>
                 <div class="cExtra">
                     <div class="cSubExtra">
                       
                         <h4 class="textExtra">
-                            ¿Olvidaste tu contraseña?
+                                ¿Quieres como Funciona?
                         </h4>
                     </div>
                 </div>
                 <div class="footer">
                       
                     <h5 class="textfooter">
-                        ¿No tienes una cuenta? <span class="textfooterExtra">registrate</span>
+                         Inversiones E&E <span class="textfooterExtra">Mas informacion</span>
                     </h5>
                 </div>
+                <div class="error">
+
+                </div>
             </main>
+            <section class="modalpersonal">
+                <h2 class="nombrePeronal" id="nombre"></h2>
+                <h3 class="ciPersonal" id="ciPersonal"></h3>
+                <h2 class="carreraPersonal" id="carrera"></h2>
+                <div class="tablaPersonal">
+                   <div  class="tablaMaterias"></div>
+                   <div class="tablaNotas"></div>
+
+                </div>
+            </section>
         </div>
     </section>
 

@@ -1,0 +1,25 @@
+
+[{
+    "ci": "30022610",
+    "nombre":"Gregorio Liendo",
+    "carrera":"Finanzas Fiscales",
+    "materias": ["derecho finaciero","contabilidad 4","fundamento de presupuesto","electiva 1","metodologia de la investigacion","sistema finaciero"],
+    "notas": [14.85,19.8,19.6,19.4,19.25,16.88]
+   } ,
+
+   { 
+    "ci": "30326271",
+    "nombre":"Edwyn Guzman",
+    "carrera": "Cs de la computacion",
+    "progrmacion 2": "18,8",
+    "matematica 1": "20",
+    "fisica 3": "17,3",
+    "eduFisica 2": "15,8"
+    }]
+
+   
+
+ 
+
+
+
