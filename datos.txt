@@ -11,10 +11,9 @@
     "ci": "30326271",
     "nombre":"Edwyn Guzman",
     "carrera": "Cs de la computacion",
-    "progrmacion 2": "18,8",
-    "matematica 1": "20",
-    "fisica 3": "17,3",
-    "eduFisica 2": "15,8"
+    "materias": ["Matematica I","Algebra II","Calculo","Fisica","Ingles II"],
+    "notas": [18,15.3,19.5,18.38,17.7]
+   
     }]
 
    

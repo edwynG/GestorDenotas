@@ -5,6 +5,8 @@
     font-family: sans-serif;
 }
 
+
+
 .contenedor{
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.4);
@@ -34,6 +36,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 5px;
+
     
 }
 .Cclose{
@@ -302,6 +306,9 @@
 
 /*modalPersonal*/
 
+.modalpersonal{
+    display: none;
+}
 .modalpersonal > h2,h3{
     margin-bottom: 10px;
     text-align: center;
@@ -312,17 +319,55 @@
     color: rgba(36, 122, 14, 0.777);
 }
 
+
 .tablaPersonal {
-    display: flex;
     height: 100%;
-    gap: 5px;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-   
+    align-items: center;
+    display: flex;
+    margin: 0px 15px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.tablaPersonal > div{
-    padding: 5px;
-    width: 49%;
+
+.tablaMaterias{
+    padding: 1px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 5px;
+    width: 100%;
+    outline: 1px solid black;
+}
+
+/*estilos de las notas*/
+.styleNota {
+    text-align: center;
+    font-weight: bolder;
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 4px;
+}
+
+.styleMateria {
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    padding: 7px 4px;
+}
+
+
+.promedio {
+    DISPLAY: FLEX;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.promedio > div {
+    flex-grow: 1;
 }
